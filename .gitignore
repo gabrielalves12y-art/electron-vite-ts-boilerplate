@@ -1,6 +1,10 @@
 # Dependências instaladas por npx npm install - nunca versionar
 node_modules/
 
+# Ambiente Node local (criado por nodeenv) - cada um gera o seu.
+# Contém o binário do Node inteiro (mais de 100 MB): nunca versionar.
+.nodeenv/
+
 # Saídas de build
 dist/
 dist-electron/
