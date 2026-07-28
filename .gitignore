@@ -1,0 +1,14 @@
+# Dependências instaladas por npx npm install - nunca versionar
+node_modules/
+
+# Saídas de build
+dist/
+dist-electron/
+release/
+
+# Credenciais (Módulo 6 em diante: string de conexão do PostgreSQL)
+.env
+
+# Ruído do sistema e logs
+*.log
+.DS_Store
